@@ -1,0 +1,84 @@
+body{
+	margin:0;
+	font:arial;
+	background-color:#bbb;
+}
+
+.grey{
+	background-color:#333;
+	border-color:#bbb;
+	border-style:solid;
+	border-width:5px
+
+}
+
+.user{
+	border-radius: 25px;
+	float: right;
+	width: 50%;
+	color: #333;
+	background-color: #bbb;
+}
+
+.party{
+	height: auto;
+}
+.data{
+	color:#bbb;
+}
+
+.rsvp{
+	float: left;
+	width: 50%;
+}
+.userImage{
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+}
+.bottomBar{
+	height: 50px;
+	margin: 10px;
+}
+button{
+	color:#333;
+	background-color:#bbb;
+	border-radius: 25px;
+	width:100px;
+	height: 50px;
+}
+ul.horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	background-color: #333;
+}
+ul.horizontal li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.topButton{
+	background-color:#333;
+	border-right:5px solid #bbb;
+	width: 20%;
+	height: 50px;
+	float: left;
+}
+.popular{
+	float: right;
+}
+
+.row.popular.grey.bottomBar.user{
+	border-radius: 25px;
+	color: #333;
+	background-color: #bbb;
+	font-size: small;
+}
